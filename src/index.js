@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom';
 
 import SearchBar from './components/search_bar';
 
-const App = () => {
-  return (
+const App = () => (
     <div>
       <SearchBar />
-    </div>);
-};
+    </div>
+);
 
 ReactDOM.render(<App />, document.querySelector('.container'));
