@@ -8,7 +8,12 @@ class SearchBar extends Component {
   }
 
   render() {
-    return <input onChange={event => this.setState({ query: event.target.value })} />;
+    return (
+      <input
+        value={this.state.query}
+        onChange={event => this.setState({ query: event.target.value })} 
+      />
+    );
   }
 }
 
