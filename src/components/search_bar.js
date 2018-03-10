@@ -9,10 +9,12 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <input
-        value={this.state.query}
-        onChange={event => this.setState({ query: event.target.value })} 
-      />
+      <div className="search-bar">
+        <input
+          value={this.state.query}
+          onChange={event => this.setState({ query: event.target.value })}
+        />
+      </div>
     );
   }
 }
