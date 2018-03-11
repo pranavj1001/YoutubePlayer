@@ -11,7 +11,7 @@ This is a simple ReactJS application which can be used to watch youtube videos. 
 * Stable and light
 * Day/Night Mode
 * Responsive Design
-* Ability to search from videos
+* Ability to search videos from Youtube
 * Shows no recommendations or trending videos (shows videos only according to your search query)
 
 ## Screenshot
