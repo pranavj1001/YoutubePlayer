@@ -1,3 +1,8 @@
+.dark-mode {
+  color: #fff;
+  background-color: #222;
+}
+
 .control--switch {
   padding-left: 15px;
   display: inline-block;
@@ -18,6 +23,10 @@
     width: 85%;
 }
 
+#search-bar-input {
+  color: #222 !important;
+}
+
 .video-item img {
   max-width: 64px;
 }
@@ -34,12 +43,24 @@
   padding-left: 15px !important;
 }
 
+.list-group-item-dark {
+    background: #555 !important;
+}
+
+.list-group-item-light {
+    background: #fff !important;
+}
+
 .list-group-item {
   cursor: pointer;
 }
 
-.list-group-item:hover {
-  background-color: #eee;
+.list-group-item-dark:hover {
+  background-color: #666 !important;
+}
+
+.list-group-item-light:hover {
+  background-color: #eee !important;
 }
 
 .switch {
