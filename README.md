@@ -10,10 +10,15 @@ This is a simple ReactJS application which can be used to watch youtube videos. 
 * Requires no login/signup
 * Stable and light
 * Day/Night Mode
+* Responsive Design
 * Ability to search from videos
 * Shows no recommendations or trending videos (shows videos only according to your search query)
 
 ## Screenshot
+
+<p align="center">
+<img src="ScreenShot.png">
+</p>
 
 ## Queries?
 
